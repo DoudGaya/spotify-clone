@@ -1,14 +1,12 @@
-import React from "react";
-import Header from "./Header";
-import Main from "./Main"
-import Boxes from "./Boxes";
+import React, { useState } from "react";
 
 export default function Home() {
 
-    const [logo, setLogo] = React.useState('Chemcider')
+
     return (
-        <div className=" flex px-10 py-20 bg-gray-900">
-            <Boxes></Boxes>
+        <div className="flex px-10 flex-col space-y-4 w-full bg-gray-700  py-10">
+            Hello world 
         </div>
     )
 }
+
