@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "circular";
+    src: url("../public/circular/CircularStd-Book.otf");
+  }
