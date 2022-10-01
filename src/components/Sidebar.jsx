@@ -5,14 +5,15 @@ export default function Sidebar() {
     return (
         <div className=" w-[230px] text-white border-r border-gray-900 flex flex-col justify-between h-full bg-black">
                <div className="">
+                
                  {/* The main navigations */}
                  <div className="flex px-4  h-12 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" className="fill-white" height="25" viewBox="0 0 24 24" ><path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
                     </div>
                     <div className="flex px-4 flex-col ">
 
-                        <div className=" space-y-8">
-                            <ul className=" w-full  space-y-4 ">
+                        <div className="space-y-8">
+                            <ul className=" w-full space-y-4 ">
                                 <li>
                                     <a className="flex space-x-3 items-center text-center align-middle" href="#">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="fill-gray-400 hover:fill-white text-gray-300 hover:text-white delay-100 transition-all duration-150" width="24" height="24" viewBox="0 0 24 24" ><path d="M12.74 2.32a1 1 0 0 0-1.48 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1 1 1 0 0 0-.26-.68z"></path></svg>
