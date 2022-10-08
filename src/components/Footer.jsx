@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer () {
     return (
         <>
-        <div className=" w-full bg-gray-900 border-t border-gray-700 flex py-4 px-4">
+        <div className=" w-full bg-black border-t border-gray-800 flex py-4 px-4">
             <div className=" w-1/4 flex space-x-8 pr-10 ">
                 <div className="flex flex-col">
                     <a href="#" className=" text-sm font-thin hover:underline tracking-wide font-spotify text-white">Maclemore | Night Away ( Dance )</a>
