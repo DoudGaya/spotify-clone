@@ -3,7 +3,7 @@ import windows from '../assets/windows.jpg'
 
 export default function Sidebar() {
     return (
-        <div className=" w-[230px] text-white border-r border-gray-900 flex flex-col justify-between h-full bg-black">
+        <div className=" w-[230px] text-white border-r border-gray-900 rounded-lg flex flex-col justify-between h-full bg-stone-900">
                <div className="">
                 
                  {/* The main navigations */}

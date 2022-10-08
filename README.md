@@ -23,12 +23,16 @@ This design is intended to be a Pixel-perfect front-end clone of the spotify mus
 ## Installation 
 <p>Start by cloning the repository in your local machine with</p> 
 
-``` git clone https://github.com/DoudGaya/spotify-clone.git  ```
+```git
+    git clone https://github.com/DoudGaya/spotify-clone.git  
+```
 
 This will create a directory ` spotify-clone `  you can then type ` cd ./spotify-clone` and run ` npm install `, which will install all the dependencies for your project
 
 <p>To run your script simply type</p>
 
-` npm run start `
+```git
+    npm run start 
+```
 
 This will start your page in a browser on port 3000 or any available port in your machine.
