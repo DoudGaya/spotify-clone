@@ -29,6 +29,10 @@ This design is intended to be a Pixel-perfect front-end clone of the spotify mus
 
 This will create a directory ` spotify-clone `  you can then type ` cd ./spotify-clone` and run ` npm install `, which will install all the dependencies for your project
 
+```node
+    npm install
+```
+
 <p>To run your script simply type</p>
 
 ```git
