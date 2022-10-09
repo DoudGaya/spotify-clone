@@ -4,8 +4,7 @@ import Banner from "./Musics/Banner"
 
 export default function Main() {
 
-        const [banner, setBanner] = useState(banners)
-
+    const [banner, setBanner] = useState(banners)
 
        const song = banner.map( item => {
             return (<Banner song={item}/>)
@@ -22,7 +21,8 @@ export default function Main() {
 
                     <div className=" flex flex-col">
                         <p className=" font-spotify font-bold text-2xl">Your Top Mixed</p>
-                        <div className="">
+                        <div className=" grid grid-cols-6 gap-4">
+                            <div className=""></div>
 
                         </div>
                     </div>
