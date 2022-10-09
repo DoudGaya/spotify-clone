@@ -12,6 +12,8 @@ what I'm going to be cloning is the Desktop version of spotify for windows 11.
 
 This design is intended to be a Pixel-perfect front-end clone of the spotify music app. But I'll see if i can make a few tweaks to make it a little bit more appealing. For the <b>Icons</b> I'll be using Google Material Icons
 
+
+![Spotify Logo](./design.png)
 ## Technologies to use in this project
 
 * React Functional Components and Hookes
