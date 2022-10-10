@@ -3,7 +3,7 @@ import UserMenu from "./UserMenu";
 
 export default function Topnav() {
 
-    const [menu, setMenu] = useState(true)
+    const [menu, setMenu] = useState(false)
 
     const toggleMenu = () => {
         return setMenu( item => !item)
