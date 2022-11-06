@@ -9,34 +9,40 @@ import Image6 from '../assets/covers/6.jpg'
 
 export default [
     {
+        id: 1,
         name: 'Song title',
         banner: Image1,
-        colorBlend: '#2222'
+        colorBlend: 'blue'
     },
     {
+        id: 2,
         name: 'Soft Mix',
         banner: Image2,
-        colorBlend: '#2222'
+        colorBlend: 'yellow'
     },
     {
+        id: 3,
         name: 'Ed Sheran, Mix',
         banner: Image3,
-        colorBlend: '#2222'
+        colorBlend: 'green'
     },
     {
+        id: 4,
         name: 'Discover Weekly',
         banner: Image4,
-        colorBlend: '#2222'
+        colorBlend: 'orange'
     },
     {
+        id: 5,
         name: 'Beast Mode',
         banner: Image5,
-        colorBlend: '#2222'
+        colorBlend: 'emerald'
     },
     {
+        id: 6,
         name: 'Beast Mode Hip-Hop',
         banner: Image6,
-        colorBlend: '#2222'
+        colorBlend: 'pink'
     }
     
 ]
