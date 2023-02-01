@@ -4,22 +4,16 @@ import banners from "../music/banners"
 import Banner from "./Musics/Banner"
 
 export default function Main() {
-
-
     // STATES DECLARATIONS     
     const [banner, setBanner] = useState(banners)
     const [music, setMusic] = useState(banners)
     const [bannerBG, setBannerBG] = useState('')
 
-   
     // FUNCTIONS 
     function bannerV(p) {
        setBannerBG( prev => {
-
         return prev = p
-        
        })
-
     }
 
     const song = banner.map( item => {
