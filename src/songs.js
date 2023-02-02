@@ -4,7 +4,7 @@ export default [
         title: 'Jay Z, Brick and Lace, Rihanna and more',
         genre: 'Blues',
         Artist: 'Alan Walker',
-        color: '#333333',
+        color: '#3333',
         banner: ''
     },
 

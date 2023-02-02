@@ -3,6 +3,35 @@ import {React, useState} from "react"
 import banners from "../music/banners"
 import Banner from "./Musics/Banner"
 
+
+
+
+
+
+
+const Single = ( { sing }) => {
+    console.log(sing)
+    return (
+        <div className="flex flex-col backdrop-blur-md bg-stone-700/30">
+        <div className=" flex w-full p-4 ralative">
+            <img src={sing.banner} alt="" className="drop-shadow-xl bg-yellow-400 border-b-4 rounded-md srcset=" />
+            <div className="absolute bottom-10 px-2 border-l-4">
+                <p className=" font-spotify">{sing.name}</p>
+            </div>
+        </div>
+    </div>
+    )
+}
+
+
+
+
+
+
+
+
+
+
 export default function Main() {
     // STATES DECLARATIONS     
     const [banner, setBanner] = useState(banners)
@@ -19,21 +48,7 @@ export default function Main() {
     const song = banner.map( item => {
         return (<Banner key={item.id} func={bannerV} song={item}/>)
     })
-        const single = music.map( (sing) => {
-            
-            return (
-                <>
-                <div className="flex flex-col backdrop-blur-md bg-stone-700/30">
-                    <div className=" flex w-full p-4 ralative">
-                        <img src={sing.banner} alt="" className="drop-shadow-xl border-b-4 rounded-md srcset=" />
-                        <div className="absolute bottom-10 px-2 border-l-4">
-                            <p className=" font-spotify">2010 Mix</p>
-                        </div>
-                    </div>
-                </div>
-                </>
-            )
-        })
+        const single = music.map( (sing) => <Single key={sing.id} sing={sing} /> )
 
         
     return (
