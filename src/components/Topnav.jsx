@@ -14,10 +14,8 @@ export default function Topnav() {
     const handleClickAway = () => {
         return setMenu(false)
     }
-
-
     return (
-        <div className=" relative mb-2 grid bg-green-500 grid-cols-3">
+        <div className=" relative mb-2 grid grid-cols-3">
         <LeftNav />
        <SearchBar />
         <Right toggleMenu={toggleMenu}  />
